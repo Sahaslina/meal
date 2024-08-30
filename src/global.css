@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.WebApp{
+    font-family: "Poppins", sans-serif;
+    margin: center;
+    box-sizing: border-box;
+}
+.header{
+    height:75px;
+    background-color: #0a0a0a;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.logo{
+    width: 50%;
+    color: #fff;
+    float: left;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+ .navbar{
+    width: 50%;
+    float: right;
+    margin-top: -60px;
+    padding: 5px;
+    display: block; 
+    overflow: hidden;
+
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    overflow: hidden;
+    float: right;
+    width: 250px;
+    height: 25px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #efeaea; /* Light grey text */
+    background-color: #424245; /* Dark grey background */
+  }
+  
+  .search-button {
+    background-color: #a49ee8; /* Red background */
+    padding: 0 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-button svg {
+    fill: #fff; /* White icon */
+    align-items: center;
+  }
+  
+  .search-button:hover {
+    background-color: #e2e0e0; /* Slightly darker red on hover */
+  }
+  
